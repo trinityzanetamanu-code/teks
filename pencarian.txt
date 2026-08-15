@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Site search » CinemaCity</title>
+<meta charset="utf-8">
+<meta name="description" content="Cinema City">
+<meta name="keywords" content="Cinema, City">
+<link rel="alternate" type="application/rss+xml" title="CinemaCity RSS" href="https://cinemacity.cc/rss.xml">
+<link rel="preconnect" href="https://cinemacity.cc/" fetchpriority="high">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:title" content="Site search » CinemaCity">
+<meta property="twitter:description" content="Cinema City">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CinemaCity">
+<meta property="og:title" content="Site search » CinemaCity">
+<meta property="og:description" content="Cinema City"><meta name="robots" content="noindex,follow">
+
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0" />
+<meta name="theme-color" content="#1D242D" id="theme-color-meta">
+<link rel="shortcut icon" href="/templates/cinemacity/images/favicon.png" />
+<link rel="preload" href="/templates/cinemacity/webfonts/Inter-Regular.woff2?v=20260725-1" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/templates/cinemacity/webfonts/fa-light-300.woff2?v=20260725-1" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/templates/cinemacity/webfonts/fa-solid-900.woff2?v=20260725-1" as="font" type="font/woff2" crossorigin />
+<link href="/templates/cinemacity/css/color.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/fontawesome.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/engine.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/swiper.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/styles.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/vroot.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/webcash.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/stat.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/cc-notifications.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/cc-device-guard.css?v=20260725-1" type="text/css" rel="stylesheet" />
+
+
+	<script>
+	var WEBCASH_OPTIONS = JSON.parse('{"SITE_AJAX_URL":"\/engine\/modules\/webcash\/site\/ajax.php","SITE_URL":"https:\/\/cinemacity.cc\/","DEBUG_ON":false,"USER_HASH":"e34457d6641d809f3f6c282f227c8221226a2099","CHARSET":"utf-8","IN_ADMINPANEL":false,"NDGROWL_CLOSER_CAPTION":"Закрыть все","CFG":{"checkout_some_steps_in_popup":0,"auto_redirect_to_gateway":"0"},"I18N":{"Error":"Error","Yes":"Yes","No":"No","Confirmation required":"Confirmation required","Really?":"Really?","Information":"Information"}}');
+	</script>
+</head>
+<body><script>(function(){var isLight=localStorage.getItem('theme')==='dt-is-active';var themeMeta=document.getElementById('theme-color-meta');if(isLight){document.body.classList.add('dt-is-active')}else{document.body.classList.remove('dt-is-active')}if(themeMeta){themeMeta.setAttribute('content',isLight?'#D6DDE4':'#1D242D')}document.addEventListener('DOMContentLoaded',function(){var toggle=document.getElementById('toggledark');if(toggle){toggle.checked=!isLight}})})()</script>
+<div class="wrapper">
+<header >
+    <div class="container">
+        <a href="/" class="header-logo">CinemaCity</a><div class="header-menu">
+    <a class="header-nav-btn" href="/movies/">Movies</a>
+    <a class="header-nav-btn" href="/tv-series/">TV Series</a>
+    <a class="header-nav-btn" href="/genre/animation/">Animation</a>
+    <a href="/genre/documentary/">Documentaries</a>
+    <div class="header-nav-btn header-dropdown-wrap header-dropdown-wrap--genres">
+        <span>Genres<i class="fal fa-chevron-down"></i></span>
+        <div class="header-dropdown header-dropdown_genres">
+            <a href="/genre/action/">Action</a>
+            <a href="/genre/adventure/">Adventure</a>
+            <a href="/genre/animation/">Animation</a>
+            <a href="/genre/anime/">Anime</a>
+            <a href="/genre/asian/">Asian</a>
+            <a href="/genre/biography/">Biography</a>
+            <a href="/genre/indian/">Indian</a>
+            <a href="/genre/comedy/">Comedy</a>
+            <a href="/genre/crime/">Crime</a>
+            <a href="/genre/documentary/">Documentary</a>
+            <a href="/genre/drama/">Drama</a>
+            <a href="/genre/family/">Family</a>
+            <a href="/genre/fantasy/">Fantasy</a>
+            <a href="/genre/film-noir/">Film-Noir</a>
+            <a href="/genre/game-show/">Game-Show</a>
+            <a href="/genre/history/">History</a>
+            <a href="/genre/horror/">Horror</a>
+            <a href="/genre/music/">Music</a>
+            <a href="/genre/musical/">Musical</a>
+            <a href="/genre/mystery/">Mystery</a>
+            <a href="/genre/news/">News</a>
+            <a href="/genre/reality-tv/">Reality-TV</a>
+            <a href="/genre/romance/">Romance</a>
+            <a href="/genre/sci-fi/">Sci-Fi</a>
+            <a href="/genre/short/">Short</a>
+            <a href="/genre/sport/">Sport</a>
+            <a href="/genre/specials/">Specials</a>
+            <a href="/genre/stand-up/">Stand-Up</a>
+            <a href="/genre/talk-show/">Talk-Show</a>
+            <a href="/genre/thriller/">Thriller</a>
+            <a href="/genre/war/">War</a>
+            <a href="/genre/western/">Western</a>
+        </div>
+    </div>
+    <div class="header-nav-btn header-dropdown-wrap header-dropdown-wrap--rss">
+        <span>RSS<i class="fal fa-chevron-down"></i></span>
+        <div class="header-dropdown header-dropdown_rss">
+            <a href="/rss.xml">General</a>
+            <a href="/movies/rss.xml">Movies</a>
+            <a href="/tv-series/rss.xml">TV Series</a>
+            
+        </div>
+    </div>
+    <i class="fal fa-times fa-xmark header-menu_btn e-mobile"></i>
+</div>
+
+        <span><i class="header-search_btn fal fa-search"></i></span>
+        <a href="/filter.html"><i class="header-filter_btn fal fa-filter"></i></a>
+        <form class="header-search" method="get" action="/index.php">
+            
+            
+            <i class="fal fa-search"></i>
+            <input type="hidden" name="do" value="search">
+            <input type="hidden" name="subaction" value="search">
+            
+            
+            <input id="story" class="js-search-typing" name="story" placeholder="Search..." type="text" autocomplete="off">
+            <i class="fal fa-times fa-xmark"></i>
+        </form>
+        <div class="header-search_top"><span>Top 3</span>
+            <div class="dle-fast_item">
+    <a href="https://cinemacity.cc/uploads/posts/2026-07/5be97348ad_cotiivghyjn1bwynplbialtoq9d.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/5be97348ad_cotiivghyjn1bwynplbialtoq9d.webp" alt=""></a>
+    <div>
+        <a href="https://cinemacity.cc/movies/2040-backrooms-2026.html">Backrooms (2026)</a>
+        <div class="dle-fast_meta">
+        <span class="rating-color1">7.0</span> •
+        <span>2026</span> •
+        <span>Sci-Fi</span>
+         • <span>R</span>
+    	</div>
+    </div>
+</div><div class="dle-fast_item">
+    <a href="https://cinemacity.cc/uploads/posts/2026-05/3d5ba01996_7byiuirpdskz89dtky5nhap9mf5.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-05/thumbs/3d5ba01996_7byiuirpdskz89dtky5nhap9mf5.webp" alt=""></a>
+    <div>
+        <a href="https://cinemacity.cc/movies/1873-obsession.html">Obsession (2025)</a>
+        <div class="dle-fast_meta">
+        <span class="rating-color1">8.1</span> •
+        <span>2025</span> •
+        <span>Horror</span>
+         • <span>R</span>
+    	</div>
+    </div>
+</div><div class="dle-fast_item">
+    <a href="https://cinemacity.cc/uploads/posts/2025-09/73acee8cb9_s4uvbcn62edum2nqg8vvi6ogof8.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2025-09/thumbs/73acee8cb9_s4uvbcn62edum2nqg8vvi6ogof8.webp" alt=""></a>
+    <div>
+        <a href="https://cinemacity.cc/movies/73-chainsaw-man-the-movie-reze-arc.html">Chainsaw Man - The Movie: Reze Arc (2025)</a>
+        <div class="dle-fast_meta">
+        <span class="rating-color1">8.8</span> •
+        <span>2025</span> •
+        <span>Action</span>
+         • <span>R</span>
+    	</div>
+    </div>
+</div>
+        </div>
+        
+
+
+<div class="header-user" data-cc-auth-state="user">
+    <a class="e-cover">
+        <img src="/templates/cinemacity/dleimages/noavatar.png" alt="aman88">
+    </a>
+    <div>
+        <div class="header-user_info">
+            <img src="/templates/cinemacity/dleimages/noavatar.png" alt="aman88">
+            <span class="header-user_name">
+                <span class="dle-use_subscription lgr_4">aman88</span>
+                
+            </span>
+        </div>
+
+        <div class="header-user_link">
+            
+
+
+            <a href="https://cinemacity.cc/user/aman88/"><i class="fal fa-user"></i>My account</a>
+			<a href="javascript:void(0)" data-cc-device-guard-entry data-cc-device-guard-open hidden><i class="fal fa-desktop"></i>My Devices</a>
+			<a href="javascript:void(0)" data-cc-notifications-entry data-cc-notifications-open hidden><i class="fal fa-bell"></i>Notifications<span class="cc-notify-count" data-cc-notifications-count hidden>0</span></a>
+			
+            <a href="https://cinemacity.cc/index.php?do=pm"><i class="fal fa-envelope"></i>Messages<span class="header-user_favorite-count">0</span></a>
+            <a href="/?do=favorites"><i class="fal fa-bookmark"></i>Favorites<span class="header-user_favorite-count">0</span></a>
+            <a href="/history.html"><i class="fal fa-history"></i>History</a>
+            <a href="/?do=lastcomments"><i class="fal fa-comments"></i>Comments</a>
+            <a href="https://cinemacity.cc/index.php?action=logout"><i class="fal fa-sign-out"></i>Logout</a>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    'use strict';
+
+    var success = false;
+
+    try {
+        success = sessionStorage.getItem('cc_login_success') === '1';
+        sessionStorage.removeItem('cc_login_success');
+    } catch (error) {}
+
+    if (!success) {
+        return;
+    }
+
+    function showSuccess() {
+        if (document.querySelector('.cc-login-success')) {
+            return;
+        }
+
+        var notice = document.createElement('div');
+        notice.className = 'attention attention--success cc-login-success';
+        notice.setAttribute('role', 'status');
+        notice.setAttribute('aria-live', 'polite');
+        notice.innerHTML =
+            '<button class="attention__close" type="button" aria-label="Close notification">×</button>' +
+            '<div class="attention__content">' +
+                '<strong>Login successful.</strong><br>' +
+                'You are signed in and can now watch movies, TV series and use downloads.' +
+            '</div>';
+
+        var close = notice.querySelector('.attention__close');
+
+        if (close) {
+            close.addEventListener('click', function () {
+                notice.remove();
+            });
+        }
+
+        document.body.appendChild(notice);
+
+        window.setTimeout(function () {
+            if (notice.isConnected) {
+                notice.remove();
+            }
+        }, 7000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', showSuccess, {once: true});
+    } else {
+        showSuccess();
+    }
+})();
+</script>
+
+
+        <i class="fal fa-bars header-menu_btn e-mobile"></i>
+    </div>
+</header>
+
+
+
+
+
+
+
+<div class="content container">
+<h1>
+
+
+
+
+
+</h1>
+<div id="dle-content" class="e-grid5">
+
+<div class="dle-search">
+	<h1>Search the site</h1>
+	<form name="fullsearch" id="fullsearch" action="/index.php?do=search" method="post">
+	<input type="hidden" name="do" id="do" value="search">
+	<input type="hidden" name="subaction" id="subaction" value="search">
+	<input type="hidden" name="from_page" id="from_page" value="0">
+	<table>
+		<tr>
+			<td class="search">
+				<div style="margin:10px;">
+					<input type="text" name="story" id="searchinput" value="lord of the rings" class="textin" style="width:250px">
+					<br /><br />
+					<input type="button" class="bbcodes" name="dosearch" id="dosearch" value="Start search">
+				</div>
+			</td>
+		</tr>
+	</table>
+</form>
+	<div class="searchmsg">Found 5 responses</div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-01/4499720ef4_kf5hz70tjnahg4swgdzor9bfoz1.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-01/thumbs/4499720ef4_kf5hz70tjnahg4swgdzor9bfoz1.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E8</span>
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/806-the-lord-of-the-rings-the-rings-of-power.html" class="e-nowrap">The Lord of the Rings: The Rings of Power (2022–)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2022</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-01/73cbea287b_he9samymsugapshugdyl6irv11v.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-01/thumbs/73cbea287b_he9samymsugapshugdyl6irv11v.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/807-the-lord-of-the-rings-the-war-of-the-rohirrim.html" class="e-nowrap">The Lord of the Rings: The War of the Rohirrim (2024)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2024</span>
+         • <span>2h 14m (134 min)</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-01/ffa1b7b2eb_ulirdj8xccadknt68wknayqxrzv.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-01/thumbs/ffa1b7b2eb_ulirdj8xccadknt68wknayqxrzv.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/705-the-lord-of-the-rings-the-return-of-the-king.html" class="e-nowrap">The Lord of the Rings: The Return of the King Extended Edition (2003)</a>
+    <div class="dar-short_meta">
+        
+        <span>Adventure</span> •
+        <span>2003</span>
+         • <span>3h 21m (201 min) | 4h 23m (263 min)  (Blu-Ray Extended Edition) | 4h 14m (254 min)  (Special DVD Extended Edition) | 3h 12m (192 min)  (DVD Widescreen Edition)</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-01/abf387f4be_qqmcrp7lzryi1piv0uyybzn2w2v.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-01/thumbs/abf387f4be_qqmcrp7lzryi1piv0uyybzn2w2v.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/704-the-lord-of-the-rings-the-two-towers.html" class="e-nowrap">The Lord of the Rings: The Two Towers Extended Edition (2002)</a>
+    <div class="dar-short_meta">
+        
+        <span>Adventure</span> •
+        <span>2002</span>
+         • <span>2h 59m (179 min) | 3h 55m (235 min)  (Blu Ray Extended Edition) | 3h 43m (223 min)  (Special DVD Extended Edition) | 2h 52m (172 min)  (DVD Widescreen Edition)</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-01/a18879ef49_6oom5qyq2yqtmjibnvbkbl9cho6.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-01/thumbs/a18879ef49_6oom5qyq2yqtmjibnvbkbl9cho6.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/642-the-lord-of-the-rings-the-fellowship-of-the-ring.html" class="e-nowrap">The Lord of the Rings: The Fellowship of the Ring Extended Edition (2001)</a>
+    <div class="dar-short_meta">
+        
+        <span>Adventure</span> •
+        <span>2001</span>
+         • <span>2h 58m (178 min) | 3h 28m (208 min)  (Special DVD Extended Edition) | 3h 48m (228 min)  (Blu Ray Extended Edition) | 2h 51m (171 min)  (DVD Widescreen Edition)</span>
+    </div>
+</div>
+</div>
+
+</div>
+
+<div class="container">
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div>
+            <div class="footer-tel">
+                <a href="#">24/7</a>
+                <a href="mailto:info@cinemacity.cc">info@cinemacity.cc</a>
+            </div>
+            <div class="footer-soc footer-soc--telegram">
+                <a href="https://t.me/CinemaCity_rip" target="_blank" rel="noopener" class="footer-soc__btn">
+                    <i class="fab fa-telegram"></i>
+                    <span>Channel</span>
+                </a>
+                <a href="https://t.me/Cinemacity_v2_bot" target="_blank" rel="noopener" class="footer-soc__btn">
+                    <i class="fab fa-telegram"></i>
+                    <span>Bot</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <span>Sections</span>
+            <a href="/movies/">Movies</a>
+            <a href="/tv-series/">TV Series</a>
+
+        </div>
+        <div class="footer-menu">
+            <span>Profile</span>
+            <a href="https://cinemacity.cc/user/aman88/">My account</a>
+            <a href="/?do=favorites">Favorites</a>
+            <a href="/?do=lastcomments">Comments</a>
+        </div>
+        <div class="footer-menu">
+            <span>Support</span>
+            <a href="/faq.html">FAQ</a>
+            <a href="/?do=feedback">Contacts</a>
+            <a href="/?do=feedback">Report a Problem</a>
+        </div>
+    </div>
+    <div class="footer-copy container">
+        <span>© Copyright «CinemaCity» 2026</span>
+        <a href="#">Legal Information</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+</footer>
+</div>
+
+<script src="/engine/classes/js/jquery3.js?v=sr2f2"></script>
+<script src="/engine/classes/js/jqueryui3.js?v=sr2f2" defer></script>
+<script src="/engine/classes/js/dle_js.js?v=sr2f2" defer></script>
+<script src="/engine/classes/fancybox/fancybox.js?v=sr2f2" defer></script>
+<script src="/engine/editor/jscripts/tiny_mce/tinymce.min.js?v=sr2f2" defer></script>
+<script src="/templates/cinemacity/js/swiper.min.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/effect-panorama.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/libs.js?v=20260725-1"></script>
+<script src="/engine/mods/dle_filter/lib/dle_filter.js.php" defer></script>
+<script src="/templates/cinemacity/dle_filter/assets/dle_filter.js?v=20260725-1" defer></script>
+<script src="/templates/cinemacity/dle_search/assets/dle_search.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/webcash-tabs-ajax.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/webcash-donate.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/popperjs.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/tippy-bundle.umd.min.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/a-search.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/emojis.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/cc-device-guard.js?v=20260725-1" defer></script>
+<script>tippy('[data-tippy-content]');</script>
+<script>
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = 'e34457d6641d809f3f6c282f227c8221226a2099';
+var dle_group      = 4;
+var dle_link_type  = 1;
+var dle_skin       = 'cinemacity';
+var dle_wysiwyg    = 0;
+var dle_min_search = '2';
+var dle_act_lang   = ["Yes", "Cancel", "Enter", "Cancel", "Save", "Delete", "Loading. Please, wait..."];
+var menu_short     = 'Quick edit';
+var menu_full      = 'Full edit';
+var menu_profile   = 'View profile';
+var menu_send      = 'Send message';
+var menu_uedit     = 'Admin Center';
+var dle_info       = 'Information';
+var dle_confirm    = 'Confirm';
+var dle_prompt     = 'Enter the information';
+var dle_req_field  = ["Fill the name field", "Fill the message field", "Fill the field with the subject of the message"];
+var dle_del_agree  = 'Are you sure you want to delete it? This action cannot be undone';
+var dle_spam_agree = 'Are you sure you want to mark the user as a spammer? This will remove all his comments';
+var dle_c_title    = 'Send a complaint';
+var dle_complaint  = 'Enter the text of your complaint to the Administration:';
+var dle_mail       = 'Your e-mail:';
+var dle_big_text   = 'Highlighted section of text is too large.';
+var dle_orfo_title = 'Enter a comment to the detected error on the page for Administration ';
+var dle_p_send     = 'Send';
+var dle_p_send_ok  = 'Notification has been sent successfully ';
+var dle_save_ok    = 'Changes are saved successfully. Refresh the page?';
+var dle_reply_title= 'Reply to the comment';
+var dle_tree_comm  = '0';
+var dle_del_news   = 'Delete article';
+var dle_sub_agree  = 'Do you really want to subscribe to this article’s comments?';
+var dle_unsub_agree  = 'Do you really want to unsubscribe from comments on this publication?';
+var dle_captcha_type  = '0';
+var dle_share_interesting  = ["Share a link to the selected text", "Twitter", "Facebook", "Вконтакте", "Direct Link:", "Right-click and select «Copy Link»"];
+var DLEPlayerLang     = {prev: 'Previous',next: 'Next',play: 'Play',pause: 'Pause',mute: 'Mute', unmute: 'Unmute', settings: 'Settings', enterFullscreen: 'Enable full screen mode', exitFullscreen: 'Disable full screen mode', speed: 'Speed', normal: 'Normal', quality: 'Quality', pip: 'PiP mode'};
+var DLEGalleryLang    = {CLOSE: 'Close (Esc)', NEXT: 'Next Image', PREV: 'Previous image', ERROR: 'Warning! An error was detected', IMAGE_ERROR: 'Failed to load image', TOGGLE_SLIDESHOW: 'Watch slideshow (space) ',TOGGLE_FULLSCREEN: 'Full-screen mode', TOGGLE_THUMBS: 'Turn on / Turn off thumbnails', ITERATEZOOM: 'Increase / Reduce', DOWNLOAD: 'Download image' };
+var DLEGalleryMode    = 0;
+var DLELazyMode       = 2;
+var allow_dle_delete_news   = false;
+
+//-->
+</script>
+<script>
+let dleSearchPage = 'search';
+</script>
+<script>
+let urlFilter = 0;
+let dleFilterJSData = {"highslide":true};
+let dleFilterId = 1;
+</script>
+<script src="/templates/cinemacity/js/cc-notifications.js?v=20260725-1" defer></script><style>.cc-bookmark-modal{position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;padding:20px}.cc-bookmark-modal.is-open{display:flex}.cc-bookmark-modal__backdrop{position:absolute;inset:0;background:var(--transp-black);backdrop-filter:blur(8px) saturate(120%);-webkit-backdrop-filter:blur(8px) saturate(120%)}.cc-bookmark-modal__dialog{position:relative;z-index:1;width:min(540px,100%);max-height:calc(100dvh - 40px);padding:28px;overflow-x:hidden;overflow-y:auto;background:var(--tone-color-bg-02);border:1px solid var(--border-slot-02);border-radius:var(--radius-blocks);box-shadow:var(--shadow-slot-3),var(--shadow-slot-6);text-align:center}.cc-bookmark-modal__close{position:absolute;top:12px;right:12px;display:inline-flex;align-items:center;justify-content:center;width:35px;height:35px;padding:0;background:var(--tone-color-12);color:var(--tone-color-on-danger);border-radius:var(--radius-o);font-size:17px;cursor:pointer}.cc-bookmark-modal__close:hover{opacity:.7}.cc-bookmark-modal__kicker{display:block;margin-bottom:7px;color:var(--tone-color-09);font-size:12px;font-weight:700;line-height:1.2;letter-spacing:.08em;text-transform:uppercase}.cc-bookmark-modal__dialog h2{margin:0 35px 12px;color:var(--tone-color-02);font-size:25px;line-height:1.3}.cc-bookmark-modal__lead{margin:0 0 16px;color:var(--tone-color-03);font-size:16px;line-height:1.55}.cc-bookmark-modal__domain{display:inline-block;padding:3px 7px;background:var(--tone-color-17);color:var(--tone-color-06);border-radius:var(--radius-blocks);font-weight:700}.cc-bookmark-modal__warning{display:grid;gap:5px;margin-bottom:16px;padding:16px;background:var(--tone-color-bg-01);border:1px solid var(--tone-color-09);border-radius:var(--radius-blocks);text-align:left}.cc-bookmark-modal__warning>strong{color:var(--tone-color-09);font-size:15px}.cc-bookmark-modal__warning>span{color:var(--tone-color-03);font-size:14px;line-height:1.5}.cc-bookmark-modal__instruction{margin:0 0 18px;color:var(--tone-color-04);font-size:14px;line-height:1.55}.cc-bookmark-modal__actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cc-bookmark-modal__actions .e-btn{width:100%}.cc-bookmark-modal__later{display:inline-block;margin-top:15px;color:var(--tone-color-06);font-size:14px;cursor:pointer}body.cc-bookmark-modal-open{overflow:hidden}@media (max-width:560px){.cc-bookmark-modal{padding:8px}.cc-bookmark-modal__dialog{max-height:calc(100dvh - 16px);padding:25px 18px 20px}.cc-bookmark-modal__dialog h2{margin-right:30px;margin-left:30px;font-size:21px}.cc-bookmark-modal__actions{grid-template-columns:1fr}}</style>
+<div class="cc-bookmark-modal" id="cc-bookmark-modal" aria-hidden="true">
+    <div class="cc-bookmark-modal__backdrop" data-cc-bookmark-later aria-hidden="true"></div>
+    <section class="cc-bookmark-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="cc-bookmark-modal-title">
+        <button class="cc-bookmark-modal__close" type="button" data-cc-bookmark-later aria-label="Remind me tomorrow">
+            <i class="fas fa-times"></i>
+        </button>
+        <span class="cc-bookmark-modal__kicker">Important</span>
+        <h2 id="cc-bookmark-modal-title">
+            Save the CinemaCity backup address
+        </h2>
+        <p class="cc-bookmark-modal__lead">
+            Add
+            <strong class="cc-bookmark-modal__domain">cinemacity.rip</strong>
+            to your bookmarks so you can always find CinemaCity.
+        </p>
+        <div class="cc-bookmark-modal__warning">
+            <strong>Save our backup address too</strong>
+            <span>
+                Continue using <strong>cinemacity.cc</strong> as usual, but also add
+                <strong>cinemacity.rip</strong> to your bookmarks.
+                If the main address is temporarily unavailable, the backup page
+                will show the current working CinemaCity address.
+            </span>
+        </div>
+        <p class="cc-bookmark-modal__instruction">
+            Open the backup page and add it to your browser bookmarks.
+        </p>
+        <div class="cc-bookmark-modal__actions">
+            <a href="https://cinemacity.rip/" target="_blank" rel="noopener noreferrer" class="e-btn contacts_btn cc-bookmark-modal__open">
+                <i class="fal fa-external-link"></i>
+                Open cinemacity.rip
+            </a>
+            <button type="button" class="e-btn cc-bookmark-modal__confirm" data-cc-bookmark-confirm>
+                <i class="fal fa-check"></i>
+                I saved it
+            </button>
+        </div>
+        <a href="#" class="cc-bookmark-modal__later" data-cc-bookmark-later>
+            Remind me tomorrow
+        </a>
+    </section>
+</div>
+<script>
+(function () {
+	'use strict';
+	var modal = document.getElementById('cc-bookmark-modal');
+	if (!modal || modal.dataset.ccBookmarkBound === '1') {
+		return;
+	}
+	modal.dataset.ccBookmarkBound = '1';
+	var CONFIRMED_KEY = 'cc_bookmark_rip_confirmed_until';
+	var SNOOZE_KEY = 'cc_bookmark_rip_snooze_until';
+	var DAY = 24 * 60 * 60 * 1000;
+	var CONFIRMED_PERIOD = 180 * DAY;
+	var SNOOZE_PERIOD = 1 * DAY;
+	function readTime(key) {
+		try {
+			return Number(localStorage.getItem(key) || 0);
+		} catch (error) {
+			return 0;
+		}
+	}
+	function writeTime(key, value) {
+		try {
+			localStorage.setItem(key, String(value));
+		} catch (error) {}
+	}
+	function openModal() {
+		modal.classList.add('is-open');
+		modal.setAttribute('aria-hidden', 'false');
+		document.body.classList.add('cc-bookmark-modal-open');
+
+		var firstAction = modal.querySelector('.cc-bookmark-modal__open');
+
+		if (firstAction) {
+			firstAction.focus();
+		}
+	}
+	function closeModal() {
+		modal.classList.remove('is-open');
+		modal.setAttribute('aria-hidden', 'true');
+		document.body.classList.remove('cc-bookmark-modal-open');
+	}
+	function remindTomorrow() {
+		writeTime(SNOOZE_KEY, Date.now() + SNOOZE_PERIOD);
+		closeModal();
+	}
+	function confirmSaved() {
+		writeTime(CONFIRMED_KEY, Date.now() + CONFIRMED_PERIOD);
+
+		try {
+			localStorage.removeItem(SNOOZE_KEY);
+		} catch (error) {}
+
+		closeModal();
+	}
+	modal.querySelectorAll('[data-cc-bookmark-later]').forEach(function (element) {
+		element.addEventListener('click', function (event) {
+			event.preventDefault();
+			remindTomorrow();
+		});
+	});
+	var confirmButton = modal.querySelector('[data-cc-bookmark-confirm]');
+	if (confirmButton) {
+		confirmButton.addEventListener('click', confirmSaved);
+	}
+	document.addEventListener('keydown', function (event) {
+		if (
+			event.key === 'Escape'
+			&& modal.classList.contains('is-open')
+		) {
+			remindTomorrow();
+		}
+	});
+	var now = Date.now();
+	if (
+		readTime(CONFIRMED_KEY) > now
+		|| readTime(SNOOZE_KEY) > now
+	) {
+		return;
+	}
+	window.setTimeout(openModal, 1800);
+})();
+</script>
+<script data-cfasync="false" src="/templates/cinemacity/js/content-protector.min.js?v=20260725-1"></script>
+
+<script>document.addEventListener("DOMContentLoaded",function(){var d,t=document.getElementById("advertising"),n=document.getElementById("cc-adblock-layer"),o=n?n.querySelector(".cc-adblock-close"):null;function i(){n.hidden=!0,document.body.style.overflow=d}t&&n&&o&&(d="",o.addEventListener("click",i),document.addEventListener("keydown",function(e){"Escape"!==e.key||n.hidden||i()}),window.setTimeout(function(){var e=window.getComputedStyle(t),e=0===t.offsetWidth||0===t.offsetHeight||"none"===e.display||"hidden"===e.visibility;t.remove(),e&&(d=document.body.style.overflow,n.hidden=!1,document.body.style.overflow="hidden",o.focus())},200))});</script>
+
+
+	<script src="/engine/modules/webcash/kernel.js"></script>
+	<script src="/engine/modules/webcash/site/site.js"></script>
+	<script src="/engine/modules/webcash/lib/jGrowl/jquery.jgrowl.js"></script>
+	<script src="/engine/modules/webcash/plugins/payhidecontent/site/payhidecontent.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"9d187d78c7054d30af1eaff97a77de38","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>
