@@ -1,0 +1,2421 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><title>CinemaCity</title>
+<meta charset="utf-8">
+<meta name="description" content="Cinema City">
+<meta name="keywords" content="Cinema, City">
+<link rel="canonical" href="https://cinemacity.cc/">
+<link rel="alternate" type="application/rss+xml" title="CinemaCity RSS" href="https://cinemacity.cc/rss.xml">
+<link rel="preconnect" href="https://cinemacity.cc/" fetchpriority="high">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:title" content="CinemaCity">
+<meta property="twitter:description" content="Cinema City">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CinemaCity">
+<meta property="og:title" content="CinemaCity">
+<meta property="og:description" content="Cinema City">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0" />
+<meta name="theme-color" content="#1D242D" id="theme-color-meta">
+<link rel="shortcut icon" href="/templates/cinemacity/images/favicon.png" />
+<link rel="preload" href="/templates/cinemacity/webfonts/Inter-Regular.woff2?v=20260725-1" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/templates/cinemacity/webfonts/fa-light-300.woff2?v=20260725-1" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/templates/cinemacity/webfonts/fa-solid-900.woff2?v=20260725-1" as="font" type="font/woff2" crossorigin />
+<link href="/templates/cinemacity/css/color.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/fontawesome.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/engine.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/swiper.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/styles.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/vroot.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/webcash.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/stat.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/cc-notifications.css?v=20260725-1" type="text/css" rel="stylesheet" />
+<link href="/templates/cinemacity/css/cc-device-guard.css?v=20260725-1" type="text/css" rel="stylesheet" />
+
+
+	<script>
+	var WEBCASH_OPTIONS = JSON.parse('{"SITE_AJAX_URL":"\/engine\/modules\/webcash\/site\/ajax.php","SITE_URL":"https:\/\/cinemacity.cc\/","DEBUG_ON":false,"USER_HASH":"e34457d6641d809f3f6c282f227c8221226a2099","CHARSET":"utf-8","IN_ADMINPANEL":false,"NDGROWL_CLOSER_CAPTION":"Закрыть все","CFG":{"checkout_some_steps_in_popup":0,"auto_redirect_to_gateway":"0"},"I18N":{"Error":"Error","Yes":"Yes","No":"No","Confirmation required":"Confirmation required","Really?":"Really?","Information":"Information"}}');
+	</script>
+</head>
+<body><script>(function(){var isLight=localStorage.getItem('theme')==='dt-is-active';var themeMeta=document.getElementById('theme-color-meta');if(isLight){document.body.classList.add('dt-is-active')}else{document.body.classList.remove('dt-is-active')}if(themeMeta){themeMeta.setAttribute('content',isLight?'#D6DDE4':'#1D242D')}document.addEventListener('DOMContentLoaded',function(){var toggle=document.getElementById('toggledark');if(toggle){toggle.checked=!isLight}})})()</script>
+<div class="wrapper">
+<header >
+    <div class="container">
+        <a href="/" class="header-logo">CinemaCity</a><div class="header-menu">
+    <a class="header-nav-btn" href="/movies/">Movies</a>
+    <a class="header-nav-btn" href="/tv-series/">TV Series</a>
+    <a class="header-nav-btn" href="/genre/animation/">Animation</a>
+    <a href="/genre/documentary/">Documentaries</a>
+    <div class="header-nav-btn header-dropdown-wrap header-dropdown-wrap--genres">
+        <span>Genres<i class="fal fa-chevron-down"></i></span>
+        <div class="header-dropdown header-dropdown_genres">
+            <a href="/genre/action/">Action</a>
+            <a href="/genre/adventure/">Adventure</a>
+            <a href="/genre/animation/">Animation</a>
+            <a href="/genre/anime/">Anime</a>
+            <a href="/genre/asian/">Asian</a>
+            <a href="/genre/biography/">Biography</a>
+            <a href="/genre/indian/">Indian</a>
+            <a href="/genre/comedy/">Comedy</a>
+            <a href="/genre/crime/">Crime</a>
+            <a href="/genre/documentary/">Documentary</a>
+            <a href="/genre/drama/">Drama</a>
+            <a href="/genre/family/">Family</a>
+            <a href="/genre/fantasy/">Fantasy</a>
+            <a href="/genre/film-noir/">Film-Noir</a>
+            <a href="/genre/game-show/">Game-Show</a>
+            <a href="/genre/history/">History</a>
+            <a href="/genre/horror/">Horror</a>
+            <a href="/genre/music/">Music</a>
+            <a href="/genre/musical/">Musical</a>
+            <a href="/genre/mystery/">Mystery</a>
+            <a href="/genre/news/">News</a>
+            <a href="/genre/reality-tv/">Reality-TV</a>
+            <a href="/genre/romance/">Romance</a>
+            <a href="/genre/sci-fi/">Sci-Fi</a>
+            <a href="/genre/short/">Short</a>
+            <a href="/genre/sport/">Sport</a>
+            <a href="/genre/specials/">Specials</a>
+            <a href="/genre/stand-up/">Stand-Up</a>
+            <a href="/genre/talk-show/">Talk-Show</a>
+            <a href="/genre/thriller/">Thriller</a>
+            <a href="/genre/war/">War</a>
+            <a href="/genre/western/">Western</a>
+        </div>
+    </div>
+    <div class="header-nav-btn header-dropdown-wrap header-dropdown-wrap--rss">
+        <span>RSS<i class="fal fa-chevron-down"></i></span>
+        <div class="header-dropdown header-dropdown_rss">
+            <a href="/rss.xml">General</a>
+            <a href="/movies/rss.xml">Movies</a>
+            <a href="/tv-series/rss.xml">TV Series</a>
+            
+        </div>
+    </div>
+    <i class="fal fa-times fa-xmark header-menu_btn e-mobile"></i>
+</div>
+
+        <span><i class="header-search_btn fal fa-search"></i></span>
+        <a href="/filter.html"><i class="header-filter_btn fal fa-filter"></i></a>
+        <form class="header-search" method="get" action="/index.php">
+            
+            
+            <i class="fal fa-search"></i>
+            <input type="hidden" name="do" value="search">
+            <input type="hidden" name="subaction" value="search">
+            
+            
+            <input id="story" class="js-search-typing" name="story" placeholder="Search..." type="text" autocomplete="off">
+            <i class="fal fa-times fa-xmark"></i>
+        </form>
+        <div class="header-search_top"><span>Top 3</span>
+            <div class="dle-fast_item">
+    <a href="https://cinemacity.cc/uploads/posts/2026-07/5be97348ad_cotiivghyjn1bwynplbialtoq9d.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/5be97348ad_cotiivghyjn1bwynplbialtoq9d.webp" alt=""></a>
+    <div>
+        <a href="https://cinemacity.cc/movies/2040-backrooms-2026.html">Backrooms (2026)</a>
+        <div class="dle-fast_meta">
+        <span class="rating-color1">7.0</span> •
+        <span>2026</span> •
+        <span>Sci-Fi</span>
+         • <span>R</span>
+    	</div>
+    </div>
+</div><div class="dle-fast_item">
+    <a href="https://cinemacity.cc/uploads/posts/2026-05/3d5ba01996_7byiuirpdskz89dtky5nhap9mf5.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-05/thumbs/3d5ba01996_7byiuirpdskz89dtky5nhap9mf5.webp" alt=""></a>
+    <div>
+        <a href="https://cinemacity.cc/movies/1873-obsession.html">Obsession (2025)</a>
+        <div class="dle-fast_meta">
+        <span class="rating-color1">8.1</span> •
+        <span>2025</span> •
+        <span>Horror</span>
+         • <span>R</span>
+    	</div>
+    </div>
+</div><div class="dle-fast_item">
+    <a href="https://cinemacity.cc/uploads/posts/2025-09/73acee8cb9_s4uvbcn62edum2nqg8vvi6ogof8.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2025-09/thumbs/73acee8cb9_s4uvbcn62edum2nqg8vvi6ogof8.webp" alt=""></a>
+    <div>
+        <a href="https://cinemacity.cc/movies/73-chainsaw-man-the-movie-reze-arc.html">Chainsaw Man - The Movie: Reze Arc (2025)</a>
+        <div class="dle-fast_meta">
+        <span class="rating-color1">8.8</span> •
+        <span>2025</span> •
+        <span>Action</span>
+         • <span>R</span>
+    	</div>
+    </div>
+</div>
+        </div>
+        
+
+
+<div class="header-user" data-cc-auth-state="user">
+    <a class="e-cover">
+        <img src="/templates/cinemacity/dleimages/noavatar.png" alt="aman88">
+    </a>
+    <div>
+        <div class="header-user_info">
+            <img src="/templates/cinemacity/dleimages/noavatar.png" alt="aman88">
+            <span class="header-user_name">
+                <span class="dle-use_subscription lgr_4">aman88</span>
+                
+            </span>
+        </div>
+
+        <div class="header-user_link">
+            
+
+
+            <a href="https://cinemacity.cc/user/aman88/"><i class="fal fa-user"></i>My account</a>
+			<a href="javascript:void(0)" data-cc-device-guard-entry data-cc-device-guard-open hidden><i class="fal fa-desktop"></i>My Devices</a>
+			<a href="javascript:void(0)" data-cc-notifications-entry data-cc-notifications-open hidden><i class="fal fa-bell"></i>Notifications<span class="cc-notify-count" data-cc-notifications-count hidden>0</span></a>
+			
+            <a href="https://cinemacity.cc/index.php?do=pm"><i class="fal fa-envelope"></i>Messages<span class="header-user_favorite-count">0</span></a>
+            <a href="/?do=favorites"><i class="fal fa-bookmark"></i>Favorites<span class="header-user_favorite-count">0</span></a>
+            <a href="/history.html"><i class="fal fa-history"></i>History</a>
+            <a href="/?do=lastcomments"><i class="fal fa-comments"></i>Comments</a>
+            <a href="https://cinemacity.cc/index.php?action=logout"><i class="fal fa-sign-out"></i>Logout</a>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    'use strict';
+
+    var success = false;
+
+    try {
+        success = sessionStorage.getItem('cc_login_success') === '1';
+        sessionStorage.removeItem('cc_login_success');
+    } catch (error) {}
+
+    if (!success) {
+        return;
+    }
+
+    function showSuccess() {
+        if (document.querySelector('.cc-login-success')) {
+            return;
+        }
+
+        var notice = document.createElement('div');
+        notice.className = 'attention attention--success cc-login-success';
+        notice.setAttribute('role', 'status');
+        notice.setAttribute('aria-live', 'polite');
+        notice.innerHTML =
+            '<button class="attention__close" type="button" aria-label="Close notification">×</button>' +
+            '<div class="attention__content">' +
+                '<strong>Login successful.</strong><br>' +
+                'You are signed in and can now watch movies, TV series and use downloads.' +
+            '</div>';
+
+        var close = notice.querySelector('.attention__close');
+
+        if (close) {
+            close.addEventListener('click', function () {
+                notice.remove();
+            });
+        }
+
+        document.body.appendChild(notice);
+
+        window.setTimeout(function () {
+            if (notice.isConnected) {
+                notice.remove();
+            }
+        }, 7000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', showSuccess, {once: true});
+    } else {
+        showSuccess();
+    }
+})();
+</script>
+
+
+        <i class="fal fa-bars header-menu_btn e-mobile"></i>
+    </div>
+</header>
+
+<div id="main-page-content" class="content container">
+<div class="dar-home">
+    <div class="swiper-wrapper"><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/07f164cafb_uvtlptgatnkuqvlzumvoubyqc4v.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/07f164cafb_uvtlptgatnkuqvlzumvoubyqc4v.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2794-the-wrong-girls-2026.html" class="e-clamp2">The Wrong Girls</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Comedy</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>1h 39m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2794-the-wrong-girls-2026.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2794-the-wrong-girls-2026.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/00a979c87f_lmd4kcrhyzykejgm9zcdboamq4b.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/00a979c87f_lmd4kcrhyzykejgm9zcdboamq4b.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2793-the-rivals-of-amziah-king.html" class="e-clamp2">The Rivals of Amziah King</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Drama</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>2h 10m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2793-the-rivals-of-amziah-king.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2793-the-rivals-of-amziah-king.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/1df24bee77_backdrop_ez6c849b.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/1df24bee77_backdrop_ez6c849b.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2766-the-end-of-oak-street-2026.html" class="e-clamp2">The End of Oak Street</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Action</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>1h 39m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2766-the-end-of-oak-street-2026.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2766-the-end-of-oak-street-2026.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/d5863419e6_8f6yigfhowutphk5rh7kikyrp3c.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/d5863419e6_8f6yigfhowutphk5rh7kikyrp3c.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2765-tony-2026.html" class="e-clamp2">Tony</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Comedy</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>1h 46m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2765-tony-2026.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2765-tony-2026.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/07b469603d_6a651816ab1a2.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/07b469603d_6a651816ab1a2.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/tv-series/2754-reacher.html" class="e-clamp2">Reacher</a>
+        <ul>
+            <li><i class="fal fa-list"></i><div><span>Seasons</span>4</div></li>
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Action</div></li>
+            
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/tv-series/2754-reacher.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/tv-series/2754-reacher.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/994505eb26_6a581ac337b55.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/994505eb26_6a581ac337b55.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/tv-series/2543-lucky.html" class="e-clamp2">Lucky</a>
+        <ul>
+            <li><i class="fal fa-list"></i><div><span>Season</span>1</div></li>
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Drama</div></li>
+            
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/tv-series/2543-lucky.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/tv-series/2543-lucky.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/d577d6930d_rldgw5e5e2xuhsz2qoz9zkrrl28.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/d577d6930d_rldgw5e5e2xuhsz2qoz9zkrrl28.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2293-minions-monsters-2026.html" class="e-clamp2">Minions &amp; Monsters</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Adventure</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>1h 30m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2293-minions-monsters-2026.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2293-minions-monsters-2026.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-06/0df6c0e681_backdrop_23i79xyb.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-06/thumbs/0df6c0e681_backdrop_23i79xyb.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/tv-series/2232-house-of-the-dragon.html" class="e-clamp2">House of the Dragon</a>
+        <ul>
+            <li><i class="fal fa-list"></i><div><span>Seasons</span>3</div></li>
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Action</div></li>
+            
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/tv-series/2232-house-of-the-dragon.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/tv-series/2232-house-of-the-dragon.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/92e7ee2ec9_kla1gqioeyvgxxgnqlocr7bycqu.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/92e7ee2ec9_kla1gqioeyvgxxgnqlocr7bycqu.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2319-the-invite-2026.html" class="e-clamp2">The Invite</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Comedy</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>1h 47m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2319-the-invite-2026.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2319-the-invite-2026.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div><div class="dar-home_item swiper-slide">
+    <div class="dar-home_bg e-cover"><a href="https://cinemacity.cc/uploads/posts/2026-08/411e91e10f_backdrop_iubcj_7g.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/411e91e10f_backdrop_iubcj_7g.webp" alt=""></a></div>
+    <div class="dar-home_content">
+        <a href="https://cinemacity.cc/movies/2722-teenage-sex-and-death-at-camp-miasma-2026.html" class="e-clamp2">Teenage Sex and Death at Camp Miasma</a>
+        <ul>
+            
+            <li><i class="fal fa-film"></i><div><span>Genre</span>Drama</div></li>
+            <li><i class="fal fa-clock"></i><div><span>Runtime</span>1h 52m</div></li>
+    	</ul>
+    	<ul>
+    	    <li>
+        	    <a style="background:var(--light-blue) !important" href="https://cinemacity.cc/movies/2722-teenage-sex-and-death-at-camp-miasma-2026.html#watch" class="e-btn"><i class="fas fa-play"></i>Play</a>
+        	    <a href="https://cinemacity.cc/movies/2722-teenage-sex-and-death-at-camp-miasma-2026.html" class="e-btn">Details</a>
+    	    </li>
+    	</ul>
+    </div>
+</div></div>
+    <i class="fal fa-chevron-left"></i>
+    <i class="fal fa-chevron-right"></i>
+</div>
+
+<div class="container section vroot-global-polls-home">
+    <button class="vroot-global-polls-trigger" type="button" data-vroot-polls-open aria-controls="vroot-global-polls-modal" aria-expanded="false">
+        <span class="vroot-global-polls-trigger__icon"><i class="fas fa-poll-h"></i></span>
+        <span class="vroot-global-polls-trigger__text">
+            <strong>Share your playback experience</strong>
+            <small>Take a quick survey</small>
+        </span>
+        <i class="fal fa-arrow-right vroot-global-polls-trigger__arrow"></i>
+    </button>
+    <div class="vroot-global-polls-modal" id="vroot-global-polls-modal" aria-hidden="true">
+        <button class="vroot-global-polls-modal__backdrop" type="button" data-vroot-polls-close aria-label="Close survey"></button>
+        <section class="vroot-global-polls-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="vroot-global-polls-title">
+            <header class="vroot-global-polls-modal__header">
+                <div>
+                    <h2 id="vroot-global-polls-title">Help us improve CinemaCity</h2>
+                    <p>Tell us how the player and downloads work on your device. It only takes a moment.</p>
+                </div>
+                <button class="vroot-global-polls-modal__close" type="button" data-vroot-polls-close aria-label="Close survey">
+                    <i class="fas fa-times"></i>
+                </button>
+            </header>
+            <div class="vroot-global-polls-modal__body">
+                <div class="vroot-global-polls" data-polls="player,download,device" data-hide-completed="1"></div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="/templates/cinemacity/js/vroot-global-polls.js?v=20260725-1" defer></script>
+
+<div class="container section">
+    <h1 class="dar-title">Information</h1>
+    <div class="dar-tr_item">
+        We’re undergoing a major backend and server upgrade. Online player and DL issues are expected, please be patient. Finish date: August 2026.
+    </div>
+</div>
+
+
+
+<div class="dar-sect container section">
+  <h1 class="dar-title">Trending</h1>
+  <div class="dar-short">
+    <div class="swiper-wrapper"><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/31ed8e1169_ldymh3iztmskofd1wdotmttfezg.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/31ed8e1169_ldymh3iztmskofd1wdotmttfezg.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2794-the-wrong-girls-2026.html" class="e-nowrap">The Wrong Girls (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 39m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/10fd0ba7f7_kk6rauofqi3nic2fvjhsy9wtzaq.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/10fd0ba7f7_kk6rauofqi3nic2fvjhsy9wtzaq.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2793-the-rivals-of-amziah-king.html" class="e-nowrap">The Rivals of Amziah King (2025)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2025</span>
+         • <span>2h 10m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/6002045573_7izrdnsqm4rsd8em6pjxdzfqsc2.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/6002045573_7izrdnsqm4rsd8em6pjxdzfqsc2.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2766-the-end-of-oak-street-2026.html" class="e-nowrap">The End of Oak Street (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>1h 39m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/d5c1eed5de_6k9i5gjiorfxlts3kedgomylm89.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/d5c1eed5de_6k9i5gjiorfxlts3kedgomylm89.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2765-tony-2026.html" class="e-nowrap">Tony (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 46m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/5464021006_poster_m4gy6w7b.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/5464021006_poster_m4gy6w7b.webp" alt=""></a>
+        <div>
+
+            
+            <span>S4 • E3</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2754-reacher.html" class="e-nowrap">Reacher (2022–)</a>
+    <div class="dar-short_meta">
+        <span>4 Seasons</span> •
+        <span>Action</span> •
+        <span>2022</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/f34f61bb3e_6a6a0fbc3b516.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/f34f61bb3e_6a6a0fbc3b516.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E6</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2543-lucky.html" class="e-nowrap">Lucky (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/b07d0419ee_hfkfdyjjxodw8chfzenatlnm7os.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/b07d0419ee_hfkfdyjjxodw8chfzenatlnm7os.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2293-minions-monsters-2026.html" class="e-nowrap">Minions &amp; Monsters (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Adventure</span> •
+        <span>2026</span>
+         • <span>1h 30m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-06/12a7ea6ffe_poster__miglu4s.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-06/thumbs/12a7ea6ffe_poster__miglu4s.webp" alt=""></a>
+        <div>
+
+            
+            <span>S3 • E8</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2232-house-of-the-dragon.html" class="e-nowrap">House of the Dragon (2022–)</a>
+    <div class="dar-short_meta">
+        <span>3 Seasons</span> •
+        <span>Action</span> •
+        <span>2022</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-06/6f475f1af9_6fwi0p6lymxhevipx6jdycq6s6l.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-06/thumbs/6f475f1af9_6fwi0p6lymxhevipx6jdycq6s6l.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2319-the-invite-2026.html" class="e-nowrap">The Invite (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 47m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/d2cce37f0a_rljooc3v0niypiqh8qe6kksswsc.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/d2cce37f0a_rljooc3v0niypiqh8qe6kksswsc.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2722-teenage-sex-and-death-at-camp-miasma-2026.html" class="e-nowrap">Teenage Sex and Death at Camp Miasma (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2026</span>
+         • <span>1h 52m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/1742e54362_zeqvuezjd7lwshrk3alf2lpspr3.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/1742e54362_zeqvuezjd7lwshrk3alf2lpspr3.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2709-ice-cream-man-2026.html" class="e-nowrap">Ice Cream Man (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Thriller</span> •
+        <span>2026</span>
+         • <span>1h 26m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/ecf3d5cf72_dswjf9lmu2daffcvtbzqyk3pu10.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/ecf3d5cf72_dswjf9lmu2daffcvtbzqyk3pu10.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/ts/">TS</a></span>
+            
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2644-spider-man-brand-new-day-2026.html" class="e-nowrap">Spider-Man: Brand New Day (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>2h 25m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/b62265fc54_urxrnxqwkhoenm3nwvozdyscx2f.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/b62265fc54_urxrnxqwkhoenm3nwvozdyscx2f.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2475-evil-dead-burn-2026.html" class="e-nowrap">Evil Dead Burn (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Thriller</span> •
+        <span>2026</span>
+         • <span>1h 50m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/c67038f00c_poster_hc9hg8ts.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/c67038f00c_poster_hc9hg8ts.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2664-soulm8te-2026.html" class="e-nowrap">Soulm8te (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Thriller</span> •
+        <span>2026</span>
+         • <span>1h 39m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-06/d5deae17d6_6a228015052c8.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-06/thumbs/d5deae17d6_6a228015052c8.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E10</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2118-cape-fear.html" class="e-nowrap">Cape Fear (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/74458e9c08_jjknapoojgzu8xa5edbmepdpz4c.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/74458e9c08_jjknapoojgzu8xa5edbmepdpz4c.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2652-above-and-below.html" class="e-nowrap">Above and Below (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>1h 36m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/15a4a96e30_poster_o4vhevqv.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/15a4a96e30_poster_o4vhevqv.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2645-i-want-your-sex-2026.html" class="e-nowrap">I Want Your Sex (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 30m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/66920a028a_poster_eto6fzqj.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/66920a028a_poster_eto6fzqj.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2635-one-night-only-2026.html" class="e-nowrap">One Night Only (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 42m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-05/e7e524828e_69ebba06924e4.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-05/thumbs/e7e524828e_69ebba06924e4.webp" alt=""></a>
+        <div>
+
+            
+            <span>S9 • E10</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/1990-rick-and-morty.html" class="e-nowrap">Rick and Morty (2013–)</a>
+    <div class="dar-short_meta">
+        <span>9 Seasons</span> •
+        <span>Action</span> •
+        <span>2013</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/079f54f7fa_sber54h2sjolebehvsxmi2txlfh.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/079f54f7fa_sber54h2sjolebehvsxmi2txlfh.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2307-supergirl-2026.html" class="e-nowrap">Supergirl (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>1h 48m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/450d88b30b_fyfozo65ordsiagw012j9l0ycfa.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/450d88b30b_fyfozo65ordsiagw012j9l0ycfa.webp" alt=""></a>
+        <div>
+
+            
+            
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/1568-the-legend-of-aang-the-last-airbender.html" class="e-nowrap">The Legend of Aang: The Last Airbender (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>1h 39m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/9b70ef0084_kifacg75kvjy0am3s4qmbpas8zl.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/9b70ef0084_kifacg75kvjy0am3s4qmbpas8zl.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2592-her-private-hell-2026.html" class="e-nowrap">Her Private Hell (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2026</span>
+         • <span>1h 49m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/4a5ceecdcb_9nncusrogndogq7iaberptll3r1.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/4a5ceecdcb_9nncusrogndogq7iaberptll3r1.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2611-pinocchio-unstrung-2026.html" class="e-nowrap">Pinocchio: Unstrung (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Thriller</span> •
+        <span>2026</span>
+         • <span>1h 22m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/6e81c3c90b_nhaozotjajgdwar0veeepcjnfcq.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/6e81c3c90b_nhaozotjajgdwar0veeepcjnfcq.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2607-hana-rokush-ga-akeru-hi-ni.html" class="e-nowrap">A New Dawn / Hana rokushô ga akeru hi ni (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Anime</span> •
+        <span>2026</span>
+         • <span>1h 15m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/48a0b4e9c5_poapey9iuiby6eprwwzmyxi8hzx.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/48a0b4e9c5_poapey9iuiby6eprwwzmyxi8hzx.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/1971-gunche.html" class="e-nowrap">Colony / Gunche (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>2h 3m</span>
+    </div>
+</div></div>
+    <i class="fal fa-chevron-left"></i>
+    <i class="fal fa-chevron-right"></i>
+  </div>
+</div>
+<div class="dar-sect container section">
+  <h1 class="dar-title">General</h1>
+  <div class="dar-short">
+    <div class="swiper-wrapper"><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/4f1ee4fff7_poster_6bahgb7f.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/4f1ee4fff7_poster_6bahgb7f.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2799-it-ends.html" class="e-nowrap">It Ends (2025)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2025</span>
+         • <span>1h 29m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/8a0a32cd6e_6pzbwudlvv9b2isrvgappnpncls.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/8a0a32cd6e_6pzbwudlvv9b2isrvgappnpncls.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2784-whitmer-thomas-terminal-crew-of-dudes.html" class="e-nowrap">Whitmer Thomas: Terminal Crew of Dudes (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>60m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/645a7dd1f1_ff1.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/645a7dd1f1_ff1.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2797-evel.html" class="e-nowrap">Evel (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>1h 36m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/b533a76d9b_8ai6gblesvz4rwhreswhfqg03ha.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/b533a76d9b_8ai6gblesvz4rwhreswhfqg03ha.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2798-feed.html" class="e-nowrap">Feed (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Horror</span> •
+        <span>2026</span>
+         • <span>1h 23m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/31ed8e1169_ldymh3iztmskofd1wdotmttfezg.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/31ed8e1169_ldymh3iztmskofd1wdotmttfezg.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2794-the-wrong-girls-2026.html" class="e-nowrap">The Wrong Girls (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 39m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/10fd0ba7f7_kk6rauofqi3nic2fvjhsy9wtzaq.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/10fd0ba7f7_kk6rauofqi3nic2fvjhsy9wtzaq.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2793-the-rivals-of-amziah-king.html" class="e-nowrap">The Rivals of Amziah King (2025)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2025</span>
+         • <span>2h 10m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/d7932793dc_5b870bdd545f9.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/d7932793dc_5b870bdd545f9.webp" alt=""></a>
+        <div>
+
+            
+            <span>S3 • E8</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2786-the-leftovers.html" class="e-nowrap">The Leftovers (2014–2017)</a>
+    <div class="dar-short_meta">
+        <span>3 Seasons</span> •
+        <span>Drama</span> •
+        <span>2014</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/bff120f3a5_o1aomdezkcjrhggmhxofz5nqejh.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/bff120f3a5_o1aomdezkcjrhggmhxofz5nqejh.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2789-harry-potter-and-the-goblet-of-fire-2005.html" class="e-nowrap">Harry Potter and the Goblet of Fire (2005)</a>
+    <div class="dar-short_meta">
+        
+        <span>Adventure</span> •
+        <span>2005</span>
+         • <span>2h 37m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/2db109c516_pae6iegvjapgeatsfubxsxpa483.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/2db109c516_pae6iegvjapgeatsfubxsxpa483.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2785-mulholland-drive.html" class="e-nowrap">Mulholland Dr. / Mulholland Drive (2001)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2001</span>
+         • <span>2h 27m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/bc421812b4_6cufs9fjlsjl9agz2xjzce2r0ea.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/bc421812b4_6cufs9fjlsjl9agz2xjzce2r0ea.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2787-10-things-i-hate-about-you-1999.html" class="e-nowrap">10 Things I Hate About You (1999)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>1999</span>
+         • <span>1h 37m</span>
+    </div>
+</div></div>
+    <i class="fal fa-chevron-left"></i>
+    <i class="fal fa-chevron-right"></i>
+  </div>
+</div>
+<div class="dar-sect container section">
+    <h1 class="dar-title"><a href="/genre/anime/">Anime</a></h1>
+    <div class="dar-short">
+        <div class="swiper-wrapper"><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/f9c96059ae_poster_41s69bub.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/f9c96059ae_poster_41s69bub.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E5</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2581-nige-j-zu-no-wakagimi.html" class="e-nowrap">The Elusive Samurai / Nige jôzu no wakagimi (2024–)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2024</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/4856442f77_poster_m_66avv2.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/4856442f77_poster_m_66avv2.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2396-kore-kaite-shine.html" class="e-nowrap">Draw This, Then Die! / Kore Kaite Shine (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/7266038577_6a460d6637415.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/7266038577_6a460d6637415.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2399-uchi-no-ototo-domo-ga-sumimasen.html" class="e-nowrap">Please Excuse My Younger Brothers / Uchi no Ototo-domo ga Sumimasen (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/7043258cf5_6a42d013cb11e.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/7043258cf5_6a42d013cb11e.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2409-ushiro-no-shoumen-kamui-san.html" class="e-nowrap">KAMUI Hes Behind You / Ushiro no Shoumen Kamui-san (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/8b864b0397_poster_f0uha119.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/8b864b0397_poster_f0uha119.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2410-hell-mode-yarikomi-suki-no-gamer-wa-hai-settei-no-isekai-de-musou.html" class="e-nowrap">HELL MODE The Hardcore Gamer Dominates in Another World with Garbage Balancing / Hell Mode - Yarikomi Suki no Gamer wa Hai Settei no Isekai de Musou (2026–)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-04/9c1db76dc3_poster_qygfn7x9.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-04/thumbs/9c1db76dc3_poster_qygfn7x9.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E19</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/1531-kami-no-shizuku.html" class="e-nowrap">The Drops of God / Kami no shizuku (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-04/cd527197e1_5bb2b28057ade.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-04/thumbs/cd527197e1_5bb2b28057ade.webp" alt=""></a>
+        <div>
+
+            
+            <span>S4 • E18</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/1445-tensei-shitara-suraimu-datta-ken.html" class="e-nowrap">That Time I Got Reincarnated as a Slime / Tensei Shitara Suraimu Datta Ken (2018–)</a>
+    <div class="dar-short_meta">
+        <span>4 Seasons</span> •
+        <span>Action</span> •
+        <span>2018</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/4f09447916_poster_qr1j52ge.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/4f09447916_poster_qr1j52ge.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2398-koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita.html" class="e-nowrap">I Became a Legend after My 10 Year-Long Last Stand / Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita. (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/db5938dfd7_poster_cxr_4pgo.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/db5938dfd7_poster_cxr_4pgo.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2397-ryoumin-0-nin-start-no-henkyou-ryoushu-sama.html" class="e-nowrap">The Frontier Lord Begins with Zero Subjects / Ryoumin 0-nin Start no Henkyou Ryoushu-sama (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/8286689c52_link-click-vol-4-9781638380375_xlg.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/8286689c52_link-click-vol-4-9781638380375_xlg.webp" alt=""></a>
+        <div>
+
+            
+            <span>S4 • E2</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2779-shi-guang-dai-li-ren.html" class="e-nowrap">Link Click / Shi Guang Dai Li Ren (2021–)</a>
+    <div class="dar-short_meta">
+        <span>4 Seasons</span> •
+        <span>Anime</span> •
+        <span>2021</span>
+        
+    </div>
+</div></div>
+        <i class="fal fa-chevron-left"></i>
+        <i class="fal fa-chevron-right"></i>
+    </div>
+</div>
+<div class="dar-sect container section">
+    <h1 class="dar-title"><a href="/genre/asian/">Asian</a></h1>
+    <div class="dar-short">
+        <div class="swiper-wrapper"><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/a5a4c0c031_6a5d1ace20c7a.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/a5a4c0c031_6a5d1ace20c7a.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2582-a-good-day-to-ascend.html" class="e-nowrap">A Good Day to Ascend (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/146b5f49a2_poster_v5sqvry8.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/146b5f49a2_poster_v5sqvry8.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E4</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2567-until-the-t-shirt-dries.html" class="e-nowrap">Until the T-Shirt Dries (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/b87caca585_6a6f5d1795499.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/b87caca585_6a6f5d1795499.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E3</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2796-chaebeol-x-detective.html" class="e-nowrap">Flex x Cop / Chaebeol X Detective (2024–2026)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2024</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/a0128410d5_69cf96aac0c70.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/a0128410d5_69cf96aac0c70.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2505-deep-revenge.html" class="e-nowrap">Deep Revenge (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/db202b1379_poster_5s121c1w.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/db202b1379_poster_5s121c1w.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E14</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2400-the-loyalty-game.html" class="e-nowrap">The Loyalty Game (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/1296fd6744_vot1x4fdnbieu1en3cekhf7n0n8.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/1296fd6744_vot1x4fdnbieu1en3cekhf7n0n8.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2774-ganito-ganyan-ganoon.html" class="e-nowrap">This, That and Everything in Between / Ganito, Ganyan, Ganoon (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2026</span>
+         • <span>1h 52m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/5894c7b1ba_poster_gxr5qswj.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/5894c7b1ba_poster_gxr5qswj.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2762-the-convenience-store.html" class="e-nowrap">The Convenience Store (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Horror</span> •
+        <span>2026</span>
+         • <span>1h 23m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/8c8124080d_6a4cc7ccb223b.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/8c8124080d_6a4cc7ccb223b.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E8</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2603-sarinjaui-syopingmol.html" class="e-nowrap">A Shop for Killers / Sarinjaui Syopingmol (2024–2026)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2024</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/379e8a09a3_poster_ro8bcxba.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/379e8a09a3_poster_ro8bcxba.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E4</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2686-my-bias-my-boss.html" class="e-nowrap">My Bias, My Boss (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Comedy</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/aaae207f1b_6a6fa343b2041.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/aaae207f1b_6a6fa343b2041.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2689-ravu-j-t.html" class="e-nowrap">Badly in Love / Ravu Jôtô (2025–)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Romance</span> •
+        <span>2025</span>
+        
+    </div>
+</div></div>
+        <i class="fal fa-chevron-left"></i>
+        <i class="fal fa-chevron-right"></i>
+    </div>
+</div>
+<div class="dar-sect container section">
+    <h1 class="dar-title"><a href="/genre/indian/">Indian</a></h1>
+    <div class="dar-short">
+        <div class="swiper-wrapper"><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/3ac04acbe6_tejjjndzh90oamjo1lqqzrhf7wc.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/3ac04acbe6_tejjjndzh90oamjo1lqqzrhf7wc.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2795-cocktail-2.html" class="e-nowrap">Cocktail 2 (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>2h 29m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/428a4e85ee_poster_kiruhzom.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-08/thumbs/428a4e85ee_poster_kiruhzom.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E6</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2714-operation-safed-sagar.html" class="e-nowrap">Operation Safed Sagar (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/e1d1f7c48c_poster_8j41ixwp.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/e1d1f7c48c_poster_8j41ixwp.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E8</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2615-musafir-cafe.html" class="e-nowrap">Musafir Cafe (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/1461929f5b_poster_2yltzpt9.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/1461929f5b_poster_2yltzpt9.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2565-ek-din.html" class="e-nowrap">Ek Din (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2026</span>
+         • <span>2h 5m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/ceae9b00ca_poster_opkhds2_.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/ceae9b00ca_poster_opkhds2_.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2503-balti.html" class="e-nowrap">Balti (2025)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2025</span>
+         • <span>2h 31m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/bb75adb266_poster_e203ul7b.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/bb75adb266_poster_e203ul7b.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2501-dose.html" class="e-nowrap">Dose (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Thriller</span> •
+        <span>2026</span>
+         • <span>2h 20m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/33362fe4e8_poster_78m5vd1p.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/33362fe4e8_poster_78m5vd1p.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2500-pati-patni-aur-woh-do.html" class="e-nowrap">Pati Patni Aur Woh Do (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 57m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/85beaad27e_poster_zwzccu23.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/85beaad27e_poster_zwzccu23.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2496-ikka-2026.html" class="e-nowrap">Ikka (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2026</span>
+         • <span>2h 20m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/9a9b42b020_poster_00bogbod.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/9a9b42b020_poster_00bogbod.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2485-double-occupancy.html" class="e-nowrap">Double Occupancy (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>2h 12m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/39a9e2cb54_poster_0is8o7yh.webp" data-highslide="single" target="_blank"><img class="xfieldimage poster" loading="lazy" src="/uploads/posts/2026-07/thumbs/39a9e2cb54_poster_0is8o7yh.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2484-peddi.html" class="e-nowrap">Peddi (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>3h 12m</span>
+    </div>
+</div></div>
+        <i class="fal fa-chevron-left"></i>
+        <i class="fal fa-chevron-right"></i>
+    </div>
+</div>
+<div class="dar-sect container section">
+    <h1>TOP 10</h1>
+    <div class="dar-short">
+        <div class="swiper-wrapper"><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2026-05/thumbs/3d5ba01996_7byiuirpdskz89dtky5nhap9mf5.webp">
+    <a href="https://cinemacity.cc/movies/1873-obsession.html" class="e-clamp2">Obsession (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2026-07/thumbs/5be97348ad_cotiivghyjn1bwynplbialtoq9d.webp">
+    <a href="https://cinemacity.cc/movies/2040-backrooms-2026.html" class="e-clamp2">Backrooms (2026)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2025-11/thumbs/f2cf8bf42b_w1500_55279286.webp">
+    <a href="https://cinemacity.cc/movies/251-jujutsu-kaisen-execution.html" class="e-clamp2">Jujutsu Kaisen: Execution (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2025-07/thumbs/450bd64ed5_hjmkrhcpxxuypr0h1bjqknn4s0s.webp">
+    <a href="https://cinemacity.cc/movies/14-dracula-a-love-tale.html" class="e-clamp2">Dracula  / Dracula: A Love Tale (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2026-01/thumbs/69561363c6_zootopia_two_ver3_xlg.webp">
+    <a href="https://cinemacity.cc/movies/347-zootopia-2.html" class="e-clamp2">Zootopia 2 (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2026-04/thumbs/cd32f16454_pafzqwo6bomlht9vseje1uniw1j.webp">
+    <a href="https://cinemacity.cc/movies/454-avatar-fire-and-ash.html" class="e-clamp2">Avatar: Fire and Ash (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2025-12/thumbs/056ab5dfd9_mv5bzmq3nmixntgtyjfins00nzlilwi0yzatzdkxy2e0ywixzdewxkeyxkfqcgc__v1_fmjpg_ux1000_.webp">
+    <a href="https://cinemacity.cc/movies/392-five-nights-at-freddys-2.html" class="e-clamp2">Five Nights at Freddy&#039;s 2 (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2026-06/thumbs/14e0bbe2cc_zm0kabojlt9er5y7vdil2deowml.webp">
+    <a href="https://cinemacity.cc/movies/1671-michael-2026.html" class="e-clamp2">Michael (2026)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2025-09/thumbs/73acee8cb9_s4uvbcn62edum2nqg8vvi6ogof8.webp">
+    <a href="https://cinemacity.cc/movies/73-chainsaw-man-the-movie-reze-arc.html" class="e-clamp2">Chainsaw Man - The Movie: Reze Arc (2025)</a>
+</div><div class="dar-top10_item swiper-slide">
+    <img src="/uploads/posts/2026-08/thumbs/ecf3d5cf72_dswjf9lmu2daffcvtbzqyk3pu10.webp">
+    <a href="https://cinemacity.cc/movies/2644-spider-man-brand-new-day-2026.html" class="e-clamp2">Spider-Man: Brand New Day (2026)</a>
+</div></div>
+        <i class="fal fa-chevron-left"></i>
+        <i class="fal fa-chevron-right"></i>
+    </div>
+</div>
+<div class="dar-sect container section">
+    <h1>We recommend</h1>
+    <div class="dar-short1">
+        <div class="swiper-wrapper" style="visibility:hidden;">
+            <div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/cd5226efc6_rauoi863hxnesaviepvpbxgxbgc.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/cd5226efc6_rauoi863hxnesaviepvpbxgxbgc.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2799-it-ends.html" class="e-nowrap">It Ends (2025)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2025</span>
+         • <span>1h 29m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2582-a-good-day-to-ascend.html" class="e-nowrap">A Good Day to Ascend (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <img class="xfieldimage background" src="/uploads/posts/2026-08/91c57e2760_uv94fvhyegqpvxafu5xile3fvt4.webp" alt="">
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2784-whitmer-thomas-terminal-crew-of-dudes.html" class="e-nowrap">Whitmer Thomas: Terminal Crew of Dudes (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>60m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/9f3da45aa3_backdrop_oxgaiyb4.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-07/thumbs/9f3da45aa3_backdrop_oxgaiyb4.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E5</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2581-nige-j-zu-no-wakagimi.html" class="e-nowrap">The Elusive Samurai / Nige jôzu no wakagimi (2024–)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2024</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2396-kore-kaite-shine.html" class="e-nowrap">Draw This, Then Die! / Kore Kaite Shine (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/9bf40b1f57_backdrop_fd943p_n.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-07/thumbs/9bf40b1f57_backdrop_fd943p_n.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E4</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2567-until-the-t-shirt-dries.html" class="e-nowrap">Until the T-Shirt Dries (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/723cb17d9c_3f3.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/723cb17d9c_3f3.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2797-evel.html" class="e-nowrap">Evel (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Action</span> •
+        <span>2026</span>
+         • <span>1h 36m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <img class="xfieldimage background" src="/uploads/posts/2026-08/d144fa72f7_gff.webp" alt="">
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2798-feed.html" class="e-nowrap">Feed (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Horror</span> •
+        <span>2026</span>
+         • <span>1h 23m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/f49b3db31a_6a454032a3830.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/f49b3db31a_6a454032a3830.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E3</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2796-chaebeol-x-detective.html" class="e-nowrap">Flex x Cop / Chaebeol X Detective (2024–2026)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2024</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/07f164cafb_uvtlptgatnkuqvlzumvoubyqc4v.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/07f164cafb_uvtlptgatnkuqvlzumvoubyqc4v.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2794-the-wrong-girls-2026.html" class="e-nowrap">The Wrong Girls (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 39m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/00a979c87f_lmd4kcrhyzykejgm9zcdboamq4b.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/00a979c87f_lmd4kcrhyzykejgm9zcdboamq4b.webp" alt=""></a>
+        <div>
+
+            <span><a href="https://cinemacity.cc/quality/cam-rip/">CAM-Rip</a></span>
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2793-the-rivals-of-amziah-king.html" class="e-nowrap">The Rivals of Amziah King (2025)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2025</span>
+         • <span>2h 10m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/e0f0e86856_backdrop_zyxx71vz.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/e0f0e86856_backdrop_zyxx71vz.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2795-cocktail-2.html" class="e-nowrap">Cocktail 2 (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>2h 29m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/c9b91c1e4c_269689-8.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/c9b91c1e4c_269689-8.webp" alt=""></a>
+        <div>
+
+            
+            <span>S3 • E8</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2786-the-leftovers.html" class="e-nowrap">The Leftovers (2014–2017)</a>
+    <div class="dar-short_meta">
+        <span>3 Seasons</span> •
+        <span>Drama</span> •
+        <span>2014</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/3419ba1c45_693465476ca86.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-07/thumbs/3419ba1c45_693465476ca86.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2399-uchi-no-ototo-domo-ga-sumimasen.html" class="e-nowrap">Please Excuse My Younger Brothers / Uchi no Ototo-domo ga Sumimasen (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2409-ushiro-no-shoumen-kamui-san.html" class="e-nowrap">KAMUI Hes Behind You / Ushiro no Shoumen Kamui-san (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/53c353937b_backdrop_3evxtgvq.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-07/thumbs/53c353937b_backdrop_3evxtgvq.webp" alt=""></a>
+        <div>
+
+            
+            <span>S2 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2410-hell-mode-yarikomi-suki-no-gamer-wa-hai-settei-no-isekai-de-musou.html" class="e-nowrap">HELL MODE The Hardcore Gamer Dominates in Another World with Garbage Balancing / Hell Mode - Yarikomi Suki no Gamer wa Hai Settei no Isekai de Musou (2026–)</a>
+    <div class="dar-short_meta">
+        <span>2 Seasons</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-04/41106e0772_backdrop_xhce2z9q.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-04/thumbs/41106e0772_backdrop_xhce2z9q.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E19</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/1531-kami-no-shizuku.html" class="e-nowrap">The Drops of God / Kami no shizuku (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Anime</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-04/7de7c695e2_backdrop_cgzonw6c.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-04/thumbs/7de7c695e2_backdrop_cgzonw6c.webp" alt=""></a>
+        <div>
+
+            
+            <span>S4 • E18</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/1445-tensei-shitara-suraimu-datta-ken.html" class="e-nowrap">That Time I Got Reincarnated as a Slime / Tensei Shitara Suraimu Datta Ken (2018–)</a>
+    <div class="dar-short_meta">
+        <span>4 Seasons</span> •
+        <span>Action</span> •
+        <span>2018</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/1be1affcdb_66c92b640b329.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/1be1affcdb_66c92b640b329.webp" alt=""></a>
+        <div>
+
+            
+            <span>S4 • E3</span>
+			<span class="badge badge-Final">Final</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2778-honest-renovations.html" class="e-nowrap">Honest Renovations (2023–)</a>
+    <div class="dar-short_meta">
+        <span>4 Seasons</span> •
+        <span>Reality-TV</span> •
+        <span>2023</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/3f5fd13a20_cclwto3ftvxvv1sf8vlluwfnlph.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/3f5fd13a20_cclwto3ftvxvv1sf8vlluwfnlph.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2789-harry-potter-and-the-goblet-of-fire-2005.html" class="e-nowrap">Harry Potter and the Goblet of Fire (2005)</a>
+    <div class="dar-short_meta">
+        
+        <span>Adventure</span> •
+        <span>2005</span>
+         • <span>2h 37m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/9054438e33_69a82791cdc61.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-07/thumbs/9054438e33_69a82791cdc61.webp" alt=""></a>
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2398-koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita.html" class="e-nowrap">I Became a Legend after My 10 Year-Long Last Stand / Koko wa Ore ni Makasete Saki ni Ike to Ittekara 10-nen ga Tattara Densetsu ni Natteita. (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        
+        <div>
+
+            
+            <span>S1 • E7</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2397-ryoumin-0-nin-start-no-henkyou-ryoushu-sama.html" class="e-nowrap">The Frontier Lord Begins with Zero Subjects / Ryoumin 0-nin Start no Henkyou Ryoushu-sama (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Action</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/56c0a68174_a5n963lcjuvhichtbltxmz1kgcf.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/56c0a68174_a5n963lcjuvhichtbltxmz1kgcf.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2785-mulholland-drive.html" class="e-nowrap">Mulholland Dr. / Mulholland Drive (2001)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2001</span>
+         • <span>2h 27m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/06b4aa77a6_rrf4durhgh8cbslaeneepkhpyby.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/06b4aa77a6_rrf4durhgh8cbslaeneepkhpyby.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2787-10-things-i-hate-about-you-1999.html" class="e-nowrap">10 Things I Hate About You (1999)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>1999</span>
+         • <span>1h 37m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/81d75e41d6_c7unfyzsazyekog32ki6pzgyja0.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/81d75e41d6_c7unfyzsazyekog32ki6pzgyja0.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2788-that-awkward-moment-2014.html" class="e-nowrap">That Awkward Moment (2014)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2014</span>
+         • <span>1h 34m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-07/83c5fc9baf_backdrop_i4i0kz0n.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-07/thumbs/83c5fc9baf_backdrop_i4i0kz0n.webp" alt=""></a>
+        <div>
+
+            
+            <span>S20 • E6</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2482-the-real-housewives-of-orange-county.html" class="e-nowrap">The Real Housewives of Orange County (2006–)</a>
+    <div class="dar-short_meta">
+        <span>20 Seasons</span> •
+        <span>Reality-TV</span> •
+        <span>2006</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        
+        <div>
+
+            
+            <span>S1 • E8</span>
+			<span class="badge badge-New">New</span>
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/tv-series/2783-umthetho.html" class="e-nowrap">Umthetho (2026–)</a>
+    <div class="dar-short_meta">
+        <span>1 Season</span> •
+        <span>Drama</span> •
+        <span>2026</span>
+        
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2782-la-fiera.html" class="e-nowrap">To The Max / La fiera (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Drama</span> •
+        <span>2026</span>
+         • <span>1h 50m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/bf23f70467_backdrop_f6etdsdg.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/bf23f70467_backdrop_f6etdsdg.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2781-my-best-friend-his-girlfriend-and-me-mein-bester-freund-seine-freundin-und-ich-2026.html" class="e-nowrap">My Best Friend, His Girlfriend and Me / Mein bester Freund, seine Freundin und ich (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 38m</span>
+    </div>
+</div><div class="dar-short_item swiper-slide">
+    <div class="dar-short_bg e-cover">
+        <a href="https://cinemacity.cc/uploads/posts/2026-08/c49ea5dade_zmhngimi0vsb8jmx9sisllmpy6.webp" data-highslide="single" target="_blank"><img class="xfieldimage background" src="/uploads/posts/2026-08/thumbs/c49ea5dade_zmhngimi0vsb8jmx9sisllmpy6.webp" alt=""></a>
+        <div>
+
+            
+            
+			
+        </div>
+    </div>
+    <a href="https://cinemacity.cc/movies/2768-camp-rock-3-2026.html" class="e-nowrap">Camp Rock 3 (2026)</a>
+    <div class="dar-short_meta">
+        
+        <span>Comedy</span> •
+        <span>2026</span>
+         • <span>1h 40m</span>
+    </div>
+</div>
+        </div>
+<script>(function(){var script=document.currentScript;var wrap=script.previousElementSibling;if(!wrap||!wrap.classList.contains('swiper-wrapper')){return}var limit=10;var items=Array.prototype.slice.call(wrap.children);for(var i=items.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var tmp=items[i];items[i]=items[j];items[j]=tmp}items.forEach(function(item,index){if(index<limit){wrap.appendChild(item)}else{item.remove()}});wrap.style.visibility='visible'})()</script>
+        <i class="fal fa-chevron-left"></i>
+        <i class="fal fa-chevron-right"></i>
+    </div>
+</div>
+</div>
+<div id="main-filter-results" class="content container" style="display:none;">
+    <div class="filter-page-head">
+        <h1 id="filter-result-title">Filter results</h1>
+        <div id="filter-result-description" class="filter-page-description"></div>
+    </div>
+    <div id="dle-content" class="e-grid5"></div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div>
+            <div class="footer-tel">
+                <a href="#">24/7</a>
+                <a href="mailto:info@cinemacity.cc">info@cinemacity.cc</a>
+            </div>
+            <div class="footer-soc footer-soc--telegram">
+                <a href="https://t.me/CinemaCity_rip" target="_blank" rel="noopener" class="footer-soc__btn">
+                    <i class="fab fa-telegram"></i>
+                    <span>Channel</span>
+                </a>
+                <a href="https://t.me/Cinemacity_v2_bot" target="_blank" rel="noopener" class="footer-soc__btn">
+                    <i class="fab fa-telegram"></i>
+                    <span>Bot</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <span>Sections</span>
+            <a href="/movies/">Movies</a>
+            <a href="/tv-series/">TV Series</a>
+
+        </div>
+        <div class="footer-menu">
+            <span>Profile</span>
+            <a href="https://cinemacity.cc/user/aman88/">My account</a>
+            <a href="/?do=favorites">Favorites</a>
+            <a href="/?do=lastcomments">Comments</a>
+        </div>
+        <div class="footer-menu">
+            <span>Support</span>
+            <a href="/faq.html">FAQ</a>
+            <a href="/?do=feedback">Contacts</a>
+            <a href="/?do=feedback">Report a Problem</a>
+        </div>
+    </div>
+    <div class="footer-copy container">
+        <span>© Copyright «CinemaCity» 2026</span>
+        <a href="#">Legal Information</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+</footer>
+</div>
+
+<script src="/engine/classes/js/jquery3.js?v=sr2f2"></script>
+<script src="/engine/classes/js/jqueryui3.js?v=sr2f2" defer></script>
+<script src="/engine/classes/js/dle_js.js?v=sr2f2" defer></script>
+<script src="/engine/classes/fancybox/fancybox.js?v=sr2f2" defer></script>
+<script src="/engine/editor/jscripts/tiny_mce/tinymce.min.js?v=sr2f2" defer></script>
+<script src="/templates/cinemacity/js/swiper.min.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/effect-panorama.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/libs.js?v=20260725-1"></script>
+<script src="/engine/mods/dle_filter/lib/dle_filter.js.php" defer></script>
+<script src="/templates/cinemacity/dle_filter/assets/dle_filter.js?v=20260725-1" defer></script>
+<script src="/templates/cinemacity/dle_search/assets/dle_search.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/webcash-tabs-ajax.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/webcash-donate.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/popperjs.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/tippy-bundle.umd.min.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/a-search.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/emojis.js?v=20260725-1"></script>
+<script src="/templates/cinemacity/js/cc-device-guard.js?v=20260725-1" defer></script>
+<script>tippy('[data-tippy-content]');</script>
+<script>
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = 'e34457d6641d809f3f6c282f227c8221226a2099';
+var dle_group      = 4;
+var dle_link_type  = 1;
+var dle_skin       = 'cinemacity';
+var dle_wysiwyg    = 0;
+var dle_min_search = '2';
+var dle_act_lang   = ["Yes", "Cancel", "Enter", "Cancel", "Save", "Delete", "Loading. Please, wait..."];
+var menu_short     = 'Quick edit';
+var menu_full      = 'Full edit';
+var menu_profile   = 'View profile';
+var menu_send      = 'Send message';
+var menu_uedit     = 'Admin Center';
+var dle_info       = 'Information';
+var dle_confirm    = 'Confirm';
+var dle_prompt     = 'Enter the information';
+var dle_req_field  = ["Fill the name field", "Fill the message field", "Fill the field with the subject of the message"];
+var dle_del_agree  = 'Are you sure you want to delete it? This action cannot be undone';
+var dle_spam_agree = 'Are you sure you want to mark the user as a spammer? This will remove all his comments';
+var dle_c_title    = 'Send a complaint';
+var dle_complaint  = 'Enter the text of your complaint to the Administration:';
+var dle_mail       = 'Your e-mail:';
+var dle_big_text   = 'Highlighted section of text is too large.';
+var dle_orfo_title = 'Enter a comment to the detected error on the page for Administration ';
+var dle_p_send     = 'Send';
+var dle_p_send_ok  = 'Notification has been sent successfully ';
+var dle_save_ok    = 'Changes are saved successfully. Refresh the page?';
+var dle_reply_title= 'Reply to the comment';
+var dle_tree_comm  = '0';
+var dle_del_news   = 'Delete article';
+var dle_sub_agree  = 'Do you really want to subscribe to this article’s comments?';
+var dle_unsub_agree  = 'Do you really want to unsubscribe from comments on this publication?';
+var dle_captcha_type  = '0';
+var dle_share_interesting  = ["Share a link to the selected text", "Twitter", "Facebook", "Вконтакте", "Direct Link:", "Right-click and select «Copy Link»"];
+var DLEPlayerLang     = {prev: 'Previous',next: 'Next',play: 'Play',pause: 'Pause',mute: 'Mute', unmute: 'Unmute', settings: 'Settings', enterFullscreen: 'Enable full screen mode', exitFullscreen: 'Disable full screen mode', speed: 'Speed', normal: 'Normal', quality: 'Quality', pip: 'PiP mode'};
+var DLEGalleryLang    = {CLOSE: 'Close (Esc)', NEXT: 'Next Image', PREV: 'Previous image', ERROR: 'Warning! An error was detected', IMAGE_ERROR: 'Failed to load image', TOGGLE_SLIDESHOW: 'Watch slideshow (space) ',TOGGLE_FULLSCREEN: 'Full-screen mode', TOGGLE_THUMBS: 'Turn on / Turn off thumbnails', ITERATEZOOM: 'Increase / Reduce', DOWNLOAD: 'Download image' };
+var DLEGalleryMode    = 0;
+var DLELazyMode       = 2;
+var allow_dle_delete_news   = false;
+
+//-->
+</script>
+<script>
+let dleSearchPage = 'main';
+</script>
+<script>
+let urlFilter = 0;
+let dleFilterJSData = {"highslide":true};
+let dleFilterId = 1;
+</script>
+<script src="/templates/cinemacity/js/cc-notifications.js?v=20260725-1" defer></script><style>.cc-bookmark-modal{position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;padding:20px}.cc-bookmark-modal.is-open{display:flex}.cc-bookmark-modal__backdrop{position:absolute;inset:0;background:var(--transp-black);backdrop-filter:blur(8px) saturate(120%);-webkit-backdrop-filter:blur(8px) saturate(120%)}.cc-bookmark-modal__dialog{position:relative;z-index:1;width:min(540px,100%);max-height:calc(100dvh - 40px);padding:28px;overflow-x:hidden;overflow-y:auto;background:var(--tone-color-bg-02);border:1px solid var(--border-slot-02);border-radius:var(--radius-blocks);box-shadow:var(--shadow-slot-3),var(--shadow-slot-6);text-align:center}.cc-bookmark-modal__close{position:absolute;top:12px;right:12px;display:inline-flex;align-items:center;justify-content:center;width:35px;height:35px;padding:0;background:var(--tone-color-12);color:var(--tone-color-on-danger);border-radius:var(--radius-o);font-size:17px;cursor:pointer}.cc-bookmark-modal__close:hover{opacity:.7}.cc-bookmark-modal__kicker{display:block;margin-bottom:7px;color:var(--tone-color-09);font-size:12px;font-weight:700;line-height:1.2;letter-spacing:.08em;text-transform:uppercase}.cc-bookmark-modal__dialog h2{margin:0 35px 12px;color:var(--tone-color-02);font-size:25px;line-height:1.3}.cc-bookmark-modal__lead{margin:0 0 16px;color:var(--tone-color-03);font-size:16px;line-height:1.55}.cc-bookmark-modal__domain{display:inline-block;padding:3px 7px;background:var(--tone-color-17);color:var(--tone-color-06);border-radius:var(--radius-blocks);font-weight:700}.cc-bookmark-modal__warning{display:grid;gap:5px;margin-bottom:16px;padding:16px;background:var(--tone-color-bg-01);border:1px solid var(--tone-color-09);border-radius:var(--radius-blocks);text-align:left}.cc-bookmark-modal__warning>strong{color:var(--tone-color-09);font-size:15px}.cc-bookmark-modal__warning>span{color:var(--tone-color-03);font-size:14px;line-height:1.5}.cc-bookmark-modal__instruction{margin:0 0 18px;color:var(--tone-color-04);font-size:14px;line-height:1.55}.cc-bookmark-modal__actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cc-bookmark-modal__actions .e-btn{width:100%}.cc-bookmark-modal__later{display:inline-block;margin-top:15px;color:var(--tone-color-06);font-size:14px;cursor:pointer}body.cc-bookmark-modal-open{overflow:hidden}@media (max-width:560px){.cc-bookmark-modal{padding:8px}.cc-bookmark-modal__dialog{max-height:calc(100dvh - 16px);padding:25px 18px 20px}.cc-bookmark-modal__dialog h2{margin-right:30px;margin-left:30px;font-size:21px}.cc-bookmark-modal__actions{grid-template-columns:1fr}}</style>
+<div class="cc-bookmark-modal" id="cc-bookmark-modal" aria-hidden="true">
+    <div class="cc-bookmark-modal__backdrop" data-cc-bookmark-later aria-hidden="true"></div>
+    <section class="cc-bookmark-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="cc-bookmark-modal-title">
+        <button class="cc-bookmark-modal__close" type="button" data-cc-bookmark-later aria-label="Remind me tomorrow">
+            <i class="fas fa-times"></i>
+        </button>
+        <span class="cc-bookmark-modal__kicker">Important</span>
+        <h2 id="cc-bookmark-modal-title">
+            Save the CinemaCity backup address
+        </h2>
+        <p class="cc-bookmark-modal__lead">
+            Add
+            <strong class="cc-bookmark-modal__domain">cinemacity.rip</strong>
+            to your bookmarks so you can always find CinemaCity.
+        </p>
+        <div class="cc-bookmark-modal__warning">
+            <strong>Save our backup address too</strong>
+            <span>
+                Continue using <strong>cinemacity.cc</strong> as usual, but also add
+                <strong>cinemacity.rip</strong> to your bookmarks.
+                If the main address is temporarily unavailable, the backup page
+                will show the current working CinemaCity address.
+            </span>
+        </div>
+        <p class="cc-bookmark-modal__instruction">
+            Open the backup page and add it to your browser bookmarks.
+        </p>
+        <div class="cc-bookmark-modal__actions">
+            <a href="https://cinemacity.rip/" target="_blank" rel="noopener noreferrer" class="e-btn contacts_btn cc-bookmark-modal__open">
+                <i class="fal fa-external-link"></i>
+                Open cinemacity.rip
+            </a>
+            <button type="button" class="e-btn cc-bookmark-modal__confirm" data-cc-bookmark-confirm>
+                <i class="fal fa-check"></i>
+                I saved it
+            </button>
+        </div>
+        <a href="#" class="cc-bookmark-modal__later" data-cc-bookmark-later>
+            Remind me tomorrow
+        </a>
+    </section>
+</div>
+<script>
+(function () {
+	'use strict';
+	var modal = document.getElementById('cc-bookmark-modal');
+	if (!modal || modal.dataset.ccBookmarkBound === '1') {
+		return;
+	}
+	modal.dataset.ccBookmarkBound = '1';
+	var CONFIRMED_KEY = 'cc_bookmark_rip_confirmed_until';
+	var SNOOZE_KEY = 'cc_bookmark_rip_snooze_until';
+	var DAY = 24 * 60 * 60 * 1000;
+	var CONFIRMED_PERIOD = 180 * DAY;
+	var SNOOZE_PERIOD = 1 * DAY;
+	function readTime(key) {
+		try {
+			return Number(localStorage.getItem(key) || 0);
+		} catch (error) {
+			return 0;
+		}
+	}
+	function writeTime(key, value) {
+		try {
+			localStorage.setItem(key, String(value));
+		} catch (error) {}
+	}
+	function openModal() {
+		modal.classList.add('is-open');
+		modal.setAttribute('aria-hidden', 'false');
+		document.body.classList.add('cc-bookmark-modal-open');
+
+		var firstAction = modal.querySelector('.cc-bookmark-modal__open');
+
+		if (firstAction) {
+			firstAction.focus();
+		}
+	}
+	function closeModal() {
+		modal.classList.remove('is-open');
+		modal.setAttribute('aria-hidden', 'true');
+		document.body.classList.remove('cc-bookmark-modal-open');
+	}
+	function remindTomorrow() {
+		writeTime(SNOOZE_KEY, Date.now() + SNOOZE_PERIOD);
+		closeModal();
+	}
+	function confirmSaved() {
+		writeTime(CONFIRMED_KEY, Date.now() + CONFIRMED_PERIOD);
+
+		try {
+			localStorage.removeItem(SNOOZE_KEY);
+		} catch (error) {}
+
+		closeModal();
+	}
+	modal.querySelectorAll('[data-cc-bookmark-later]').forEach(function (element) {
+		element.addEventListener('click', function (event) {
+			event.preventDefault();
+			remindTomorrow();
+		});
+	});
+	var confirmButton = modal.querySelector('[data-cc-bookmark-confirm]');
+	if (confirmButton) {
+		confirmButton.addEventListener('click', confirmSaved);
+	}
+	document.addEventListener('keydown', function (event) {
+		if (
+			event.key === 'Escape'
+			&& modal.classList.contains('is-open')
+		) {
+			remindTomorrow();
+		}
+	});
+	var now = Date.now();
+	if (
+		readTime(CONFIRMED_KEY) > now
+		|| readTime(SNOOZE_KEY) > now
+	) {
+		return;
+	}
+	window.setTimeout(openModal, 1800);
+})();
+</script>
+<script data-cfasync="false" src="/templates/cinemacity/js/content-protector.min.js?v=20260725-1"></script>
+
+<script>document.addEventListener("DOMContentLoaded",function(){var d,t=document.getElementById("advertising"),n=document.getElementById("cc-adblock-layer"),o=n?n.querySelector(".cc-adblock-close"):null;function i(){n.hidden=!0,document.body.style.overflow=d}t&&n&&o&&(d="",o.addEventListener("click",i),document.addEventListener("keydown",function(e){"Escape"!==e.key||n.hidden||i()}),window.setTimeout(function(){var e=window.getComputedStyle(t),e=0===t.offsetWidth||0===t.offsetHeight||"none"===e.display||"hidden"===e.visibility;t.remove(),e&&(d=document.body.style.overflow,n.hidden=!1,document.body.style.overflow="hidden",o.focus())},200))});</script>
+
+
+	<script src="/engine/modules/webcash/kernel.js"></script>
+	<script src="/engine/modules/webcash/site/site.js"></script>
+	<script src="/engine/modules/webcash/lib/jGrowl/jquery.jgrowl.js"></script>
+	<script src="/engine/modules/webcash/plugins/payhidecontent/site/payhidecontent.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"9d187d78c7054d30af1eaff97a77de38","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>
